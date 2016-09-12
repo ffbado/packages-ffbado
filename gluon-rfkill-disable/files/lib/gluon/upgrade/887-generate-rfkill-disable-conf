@@ -1,0 +1,14 @@
+#!/usr/bin/lua
+
+local uci = require 'luci.model.uci'
+local c = uci.cursor()
+
+
+c:delete('rfkill', 'rfkill')
+c:section('rfkill', 'rfkill', 'rfkill',
+	  {
+		  enabled = '0',
+	  }
+)
+
+c:save('rfkill')

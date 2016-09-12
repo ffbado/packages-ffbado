@@ -1,0 +1,9 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid ""
+"If you want to Aktivate wifi button... bla bla"
+msgstr ""
+
+msgid "Aktivate wifi button"
+msgstr ""
