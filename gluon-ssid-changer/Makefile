@@ -9,7 +9,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/gluon-ssid-changer
   SECTION:=gluon
-  CATEGORY:=Freifunk Muenster
+  CATEGORY:=Freifunk Stormarn
   TITLE:=SSID Changer
   DEPENDS:=+gluon-core +micrond
 endef
