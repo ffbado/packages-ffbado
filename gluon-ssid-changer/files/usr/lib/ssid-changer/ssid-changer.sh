@@ -3,7 +3,7 @@
 # At first some Definitions:
 
 ONLINE_SSID=$(uci get wireless.client_radio0.ssid -q)
-: ${ONLINE_SSID:=stormarn.freifunk.net}   # if for whatever reason ONLINE_SSID is NULL
+: ${ONLINE_SSID:=freifunk-badoldesloe.de}   # if for whatever reason ONLINE_SSID is NULL
 OFFLINE_PREFIX='FF_OFFLINE_' # Use something short to leave space for the nodename
 
 UPPER_LIMIT='55' #Above this limit the online SSID will be used
